@@ -28,7 +28,7 @@ A SQL and Python project demonstrating CRM analytics workflows. This project sim
    - Customer segments (pie chart)  
    - Charts saved as `.png` files
 
-```python`
+```python
 
 # Example: Reading customers table with pandas
 import sqlite3
@@ -36,6 +36,7 @@ import pandas as pd
 
 conn = sqlite3.connect('crm_customer_insights')
 df_customers = pd.read_sql_query("SELECT * FROM customers;", conn)
+```
 
 ## Key Learnings
 
